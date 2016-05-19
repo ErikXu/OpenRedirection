@@ -1,0 +1,48 @@
+﻿* {
+    transition: all 0.3s;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #F8F8F8;
+}
+
+.box-max {
+    width: 500px;
+    margin: 100px auto;
+    border: 1px solid #CCC;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+    .box-max table {
+        width: 100%;
+    }
+
+        .box-max table tr {
+            line-height: 40px;
+        }
+
+        .box-max table th {
+            text-align: right;
+        }
+
+        .box-max table td input {
+            width: 100%;
+        }
+
+        .box-max table tr:last-child input {
+            width: auto;
+            padding: 5px 10px;
+            background-color: #FFF;
+            border: 1px solid black;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+            .box-max table tr:last-child input:hover {
+                background-color: #EFEFEF;
+                text-decoration: underline;
+            }
